@@ -8,12 +8,12 @@ modern applications.
 
 ### 🔑 Key Concepts
 
-- **Thread Definition:**
-![img.png](imgs/imgs_2/img.png)
+- **Thread Definition:**</br>
+![img.png](imgs/imgs_2/img.png)</br>
     - A **thread** is a stream of instructions managed by the operating system.
-![img_1.png](imgs/imgs_2/img_1.png)
+![img_1.png](imgs/imgs_2/img_1.png)</br>
     - Every Java application starts with a single thread — the **main thread**.
-![img_2.png](imgs/imgs_2/img_2.png)
+![img_2.png](imgs/imgs_2/img_2.png) </br>
     - Threads enable parallel execution paths in the same program.
 
 - **Thread Lifecycle in Java:**
@@ -31,8 +31,8 @@ modern applications.
 
 ---
 
-### 🧬 Threads vs. Processes
-![img_3.png](imgs/imgs_2/img_3.png)
+### 🧬 Threads vs. Processes</br>
+![img_3.png](imgs/imgs_2/img_3.png)</br>
 - **Belonging:**
     - Threads belong to a **process**.
     - A process must have **at least one thread**, but may spawn many.
@@ -53,7 +53,7 @@ modern applications.
 ---
 
 ### ⚠️ Synchronization Challenge
-![img_4.png](imgs/imgs_2/img_4.png) ![img_5.png](imgs/imgs_2/img_5.png)
+![img_4.png](imgs/imgs_2/img_4.png) ![img_5.png](imgs/imgs_2/img_5.png)</br>
 - Because threads share memory, they can **interfere** with each other.
 - Example: Two threads modifying the same variable at the same time may result in **inconsistent behavior**.
 - **Synchronization** is needed to prevent **race conditions** and maintain **consistency**.
